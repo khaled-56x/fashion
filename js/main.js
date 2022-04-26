@@ -134,3 +134,7 @@ var swiper = new Swiper(".blogs-slider", {
         },
     },
 });
+
+function ShowDiv() {
+    document.getElementById("myDiv").style.display = "";
+}
